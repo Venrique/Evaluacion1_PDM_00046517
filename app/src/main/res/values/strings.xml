@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Evaluación_1_PDM_00046517</string>
+    <string name="titulo">Contador de Productos</string>
+    <string name="producto_1">Producto 1</string>
+    <string name="producto_9">Producto 9</string>
+    <string name="producto_8">Producto 8</string>
+    <string name="producto_7">Producto 7</string>
+    <string name="producto_6">Producto 6</string>
+    <string name="producgto_5">Producto 5</string>
+    <string name="producto_5">Producto 4</string>
+    <string name="producto_3">Producto 3</string>
+    <string name="producto_2">Producto 2</string>
+    <string name="usuario">Usuario</string>
+    <string name="user_hint">Escribe el usuario aquí</string>
+    <string name="correo">Correo Electrónico</string>
+    <string name="correo_hint">Escribe el correo aquí</string>
+    <string name="enviar">Enviar</string>
+    <string name="factura">Factura</string>
+    <string name="share">Share</string>
+</resources>
