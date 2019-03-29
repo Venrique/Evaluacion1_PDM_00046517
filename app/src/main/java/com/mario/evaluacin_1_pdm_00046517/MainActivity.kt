@@ -102,9 +102,11 @@ class MainActivity : AppCompatActivity() {
         btnSend.setOnClickListener(View.OnClickListener {
             val intent: Intent = Intent(this,Factura::class.java)
 
+
+
             val jsonInfo: String = "{user:\""+etUser.text+"\",email:\""+etEmail.text+"\",pr1:\""+txt1.text+"\",pr2:\""+txt2.text+"\",pr3:\""+txt3.text+"\",pr4:\""+txt4.text+"\",pr5:\""+txt5.text+"\",pr6:\""+txt6.text+"\",pr7:\""+txt7.text+"\",pr8:\""+txt8.text+"\",pr9:\""+txt9.text+"\"}"
 
-            intent.putExtra("info",jsonInfo)
+            intent.putExtra(Intent.EXTRA_TEXT,jsonInfo)
             startActivity(intent)
         })
 
